@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vrnz2.Challenge.ServiceContracts.Responses.Management.Clients
+namespace Vrnz2.Challenge.ServiceContracts.Responses.Management.Customers
 {
     public class PingController
     {
