@@ -13,7 +13,12 @@ namespace Vrnz2.Challenge.ServiceContracts.ErrorMessageCodes
         public const string UNEXPECTED_ERROR = "ERROR_00000";
         public const string INVALID_CUSTOMER_NAME_ERROR = "CREATE_CUSTOMER_00001";
         public const string INVALID_ITR_ERROR = "CREATE_CUSTOMER_00002";
-        public const string INVALID_CUSTOMER_RESIDENCE_STATE_ERROR = "CREATE_CUSTOMER_00003";
+        public const string ITR_ALREADY_EXISTS_ERROR = "CREATE_CUSTOMER_00003";
+        public const string INVALID_CUSTOMER_RESIDENCE_STATE_ERROR = "CREATE_CUSTOMER_00004";
+
+        public const string INVALID_PAYMENT_CREATION_COMMAND_ERROR = "CREATE_PAYMENT_00001";
+        public const string PAYMENT_ALREADY_EXISTS_ERROR = "CREATE_PAYMENT_00002";
+        public const string INVALID_PAYMENT_SEARCH_QUERY_ERROR = "CREATE_PAYMENT_00003";
 
         #endregion
 
