@@ -20,7 +20,7 @@ namespace Vrnz2.Challenge.ServiceContracts.UseCases.Models
 
             public string Message { get; set; }
 
-            public Guid ClientUniqueId { get; set; }            
+            public Guid ClientUniqueId { get; set; }
         }
     }
 }
